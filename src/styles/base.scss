@@ -1,0 +1,26 @@
+*,   
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../../public/assets/Mulish/Mulish-VariableFont_wght.ttf');
+}
+
+body{
+    *{
+        font-family: 'Mulish'!important;
+    }
+}
+
+.MuiTypography-root	{
+    font-family: 'Mulish' !important;
+}
+
+.icon-wrapper{
+    margin-right: 1rem;
+}

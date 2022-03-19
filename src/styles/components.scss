@@ -1,0 +1,791 @@
+// Home
+.home-box{
+  *{
+    display:'flex';
+    align-items:'center';
+    flex-direction: 'column';
+    justify-content:'center'; 
+  }
+  &__top-message{
+    background-color:$cobalt-blue;
+    padding: 7vh;
+   }
+   &__bottom-message{
+     img{
+      width: 100%;
+      height: 65vh;
+      overflow: hidden;
+      -o-object-fit: inherit;
+      object-fit: inherit;
+     }
+     .text-img-wrapper{
+      background-color:$blue;
+      text-align: center;
+      color: white;
+      padding: 2vh;
+      margin-top: -1vh;
+     }
+   }
+  &__video-button{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  &__challenge{
+    display:'flex';
+    align-items:'center';
+    flex-direction: 'column';
+    justify-content:'center'; 
+    text-align: center; 
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  &__offer{
+    display:'flex';
+    align-items:'center';
+    flex-direction: 'column';
+    justify-content:'center'; 
+    text-align: center; 
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5vh;
+  }
+}
+
+// Typhography
+
+.typography {
+  &__title{
+    &--big{
+      font-size: 3.5rem;
+    }
+    &--medium{
+      font-size: 2rem;
+    }
+    &--small{
+      font-size: 1.3rem; 
+      &__offer-title{
+        font-size: 2rem !important;
+        font-weight: bold !important;
+        padding: 2vh;
+        padding-top: 2vh;
+      }
+    }
+  }
+  &__subtitle{
+    &--medium{
+      font-size: 1.2rem;  
+    }
+  }
+  &__justify-text{
+    text-align: justify;
+  }
+  &__center-text{
+    text-align: center;
+  }
+  &__father-name{
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  &__testimony{
+    padding-left: 10vh;
+    padding-right: 10vh;
+    font-size: 1rem;
+    font-style: oblique;
+  }
+  &__linkin-link{
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  &__father-name{
+    font-size: 1.4rem !important;
+    font-weight: bold !important;
+    padding: 2vh;
+
+  }
+}
+.invitation-title{
+  font-size: 2rem !important;
+  font-weight: bold !important;
+}
+.invitation-subtitle{
+  font-size: 1.3rem !important;
+  padding-left: 20vh;
+  padding-right: 20vh;
+}
+// text features
+.white{
+  color: white; 
+}
+.center-text{
+  text-align: center;
+}
+//offer
+.offer-title{
+  font-size: 2rem !important;
+  font-weight: bold !important;
+  padding: 2vh;
+  padding-top: 10vh;
+}
+.offer-subtitle{
+  font-size: 1.4rem !important;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+}
+.offer-list{
+  display: flex;
+  flex-direction: row;
+  padding: 5vh;
+}
+.offer-value{
+  font-size: 1.3rem !important;
+  padding: 1.3rem;
+}
+.offer-wrapper-value{
+  flex-basis: 100%;
+  text-align: center;
+}
+.offer-list{
+  display: flex;
+  flex-direction: row;
+}
+// Buttons
+
+.btn{
+  &__main-video{
+    border-radius: 1rem;
+    background-color: $blue;
+    padding: 1rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    color: white;
+    text-decoration: none;
+  }
+  &__main-video--cobalt{
+    border-radius: 1rem;
+    background-color: $cobalt-blue;
+    padding: 1rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    color: white;
+    font-size: 1.4rem;
+    text-decoration: none;
+  }
+  &__video-wrapper{
+    top: 50%;
+    left: 22%;
+    position: absolute;
+    z-index: 2;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+  }
+}
+
+//wrappers
+
+.wrapper-video{
+  width: 100%;
+  height: 90vh;
+  padding-left: 6vh;
+  padding-right: 6vh;
+  padding-top: 2vh;
+  padding-bottom: 10vh;
+
+  iframe{
+    height: 100%;
+  }
+}
+.wrapper-counter-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+  margin-left: 25vh;
+  margin-right: 25vh;
+  padding: 5vh;
+  background-color: #f3f3f3 !important;
+  margin-bottom: 5vh;
+  text-transform: uppercase;
+  margin-top: -29px;
+}
+.wrapper-counter-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+//certificates
+.certification-box{
+  background-color: #CACCFF9E !important;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+
+ }
+ .certification-title{
+  font-size: 2rem !important;
+  padding-bottom: 5vh;
+  font-weight: bold !important;
+ }
+  .certifications{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    img{
+      width: 150px;
+    }
+  }
+
+// testimony
+.testimony-card{
+  text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  margin-left: 10vh;
+  margin-right: 10vh;
+}
+.avatar-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-circle{
+  text-align: center;
+  align-items: center;
+}
+.testimony-title{
+  font-size: 2rem !important;
+  font-weight: bold !important;
+  text-align: center;
+  padding: 5vh;
+}
+
+
+//payment
+.payment-plans{
+  text-align: center;
+  padding-right: 20vh;
+  padding-left: 20vh;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+  background: rgba(244, 244, 236, 1);
+  .plans-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .plans-title{
+    font-size: 2rem !important;
+    font-weight: bold !important;
+    padding-bottom: 5vh;
+  } 
+  .plans-subtitle{
+    font-size: 1.4rem !important;
+  }
+}
+
+.plan-title-monthly{
+  font-size: 1.6rem !important;
+  padding: 2vh;
+  background-color: rgb(118, 226, 244) !important;
+  border-radius: .1rem !important;
+  padding-left: 5vh;
+  padding-right: 5vh;
+}
+.plan-title-anually{
+  font-size: 1.6rem !important;
+  padding: 2vh;
+  background-color:rgba(48, 23, 129, 1)!important;
+  border-radius: .1rem !important;
+  color: white;
+  padding-left: 5vh;
+  padding-right: 5vh;
+}
+.typography--price{
+  font-size: 2.4rem !important;
+  font-weight: bold !important;
+  padding: 2vh;
+
+}
+.payment-offer-list{
+  font-size: 1rem !important;
+  padding-bottom: 2vh;
+  *{
+    padding: 1vh;
+  }
+}
+// FAQ 
+.FAQ-wrapper{
+  display: flex !important;
+  border: .4rem solid rgba(65, 75, 178, 0.2) !important;
+}
+
+//footer
+.footer-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  .footer-text{
+    font-size: 1.4rem !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+// top-side
+.top-home{
+  position:relative;
+  .home-blue{
+    position:absolute;
+    width: 100%;
+    height: 65vh;
+    opacity: .5;
+  }
+  .home-img{
+    position: absolute
+  }
+  .home-text{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    .main-text{
+      font-size: 3rem;
+      font-weight: bold;
+      padding-left: 13vh;
+      margin-top: -8vh;
+    }
+  }
+  .text-img-wrapper{
+    background: rgba(97, 93, 236, 1);
+    padding: 5vh;
+    text-align: center;
+    margin-top: -1vh;
+  }
+  .home-subtitle{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+  }
+  .btn-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    .circle{
+      width: 70px;
+      height: 70px;
+      background-color: $blue;
+      border-radius: 9vh;
+      text-align: center;
+      padding-top: 23px;
+      z-index: 2;
+    }
+    .text-button{
+      width: 300px;
+      background-color: $blue;
+      border-radius: 2vh;
+      margin-left: -33px;
+      height: 45px;
+      text-align: center;
+      padding-top: 10px;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+  }
+}
+
+// parent-class
+.registration-link{
+  padding:10vh;
+  background: rgba(97, 93, 236, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  .registration-text{
+    font-size: 1.4rem;
+    color: white;
+    font-weight: bold;
+  }
+  .registration-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+  }
+}
+.invitation-to-talk{
+  padding: 10vh;
+  .invitation-top-text{
+    font-size: 1.4rem;
+  }
+  .invitation-bottom-text{
+    font-size: 1.7rem;
+    padding-top: 5vh;
+  }
+  .timer{
+    width: 60%;
+    padding-top: 10vh;
+  }
+}
+.invitation-details{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  padding: 10vh;
+  text-align: center;
+  background: rgba(97, 93, 236, 1);
+  color: white;
+  .title-details{
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  .invitation-details{
+    font-size: 1.4rem;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+}
+
+.team{
+  background: rgba(118, 226, 244, 1);
+  text-align: center;
+  color: black;
+  .team-title{
+    font-size: 2.4rem;
+    font-weight: bold;
+  }
+  .team-about{
+    font-size: 1.4rem;
+  }
+  .team-mate{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+  }
+  img{
+    border-radius: 80px;
+  }
+  .name{
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  .perks{
+    font-size: 1rem;
+  }
+}
+
+// media queries
+@media only screen and (max-width: 720px) {
+  /* For mobile phones: */
+  .offer-list{
+    display: flex;
+    flex-direction: column;
+  } 
+
+  .top-home .home-text {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 36vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  .top-home .home-text .main-text {
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding-left: 8vh;
+  }
+  .btn__video-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+  }
+  .top-home .home-subtitle {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+  }
+  .offer-title {
+    font-size: 1.4rem !important;
+    font-weight: bold !important;
+    padding: 2vh;
+  }
+  .offer-subtitle {
+    font-size: 1rem !important;
+    padding: 0vh;
+  }
+  .offer-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0vh;
+  }
+  .offer-wrapper-value{
+    img{
+      width: 100px;
+    }
+  }
+  .offer-value {
+    font-size: 1rem !important;
+    padding: 1.3rem;
+  }
+  .css-147vgba {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 266px;
+    background-color: #fff;
+    border: 2px solid #000;
+    box-shadow: 0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12);
+    padding: 32px;
+  }
+  .typography__title--small__offer-title {
+    font-size: 1.4rem !important;
+    font-weight: bold !important;
+    padding: 4vh;
+  }
+  .wrapper-video {
+    width: 100%;
+    height: 30vh;
+    padding-left: 6vh;
+    padding-right: 3vh;
+    padding-top: 2vh;
+    padding-bottom: 6vh;
+  }
+  .css-mhc70k-MuiGrid-root > .MuiGrid-item {
+    padding-left: 0px;
+  }
+  .invitation-title {
+    font-size: 1.4rem !important;
+    font-weight: bold !important;
+  }
+  .invitation-subtitle {
+    font-size: 1rem !important;
+    padding-left: 1vh;
+    padding-right: 1vh;
+  }
+  .home-box__top-message {
+    background-color: #301781;
+    padding: 6vh !important;
+  }
+  .wrapper-counter-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    padding: 3vh;
+    background-color: #f3f3f3 !important;
+    margin-bottom: 5vh;
+    text-transform: uppercase;
+    margin-top: -29px;
+  }
+  .certification-title {
+    font-size: 1.2rem !important;
+    padding-bottom: 5vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+  }
+  .certifications {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    padding-left: 10vh;
+    padding-right: 10vh;
+  }
+  .testimony-title {
+    font-size: 1.4rem !important;
+    font-weight: bold !important;
+    text-align: center;
+    padding: 5vh;
+  }
+  .testimony-card {
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-left: 0vh;
+    margin-right: 0vh;
+  }
+  .payment-plans {
+    text-align: center;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+    background: #f4f4ec;
+  }
+  .payment-plans .plans-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .footer-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    .footer-text{
+      font-size: 1.4rem !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .registration-link {
+    
+    padding: 7vh;
+    background: #615dec;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 0px;
+  }
+  .registration-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5vh;
+  }
+  .invitation-to-talk {
+    padding: 5vh;
+  }
+  .invitation-to-talk .invitation-bottom-text {
+    font-size: 1.4rem;
+    padding-top: 5vh;
+  }
+  .invitation-to-talk .invitation-top-text {
+    font-size: 1.3rem;
+  }
+  .invitation-to-talk .timer {
+    width: 110%;
+    padding-top: 10vh;
+    margin-left: -3pc;
+  }
+  .invitation-details {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 0vh;
+    text-align: center;
+    background: #615dec;
+    color: white;
+  }
+  .team .team-about {
+    font-size: 1rem;
+  }
+  .team .team-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  .team .name {
+  
+      font-size: 1rem;
+      font-weight: bold;
+  
+  }
+  .top-home .home-blue {
+    position: absolute;
+    width: 100%;
+    height: 45vh;
+    opacity: 0.5;
+  }
+  .home-box__bottom-message img {
+    width: 100%;
+    height: 45vh;
+    overflow: hidden;
+    -o-object-fit: inherit;
+    object-fit: inherit;
+  }
+  .event-start{
+    padding-bottom: 2vh !important;
+  }
+
+  .certifications {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    align-items: center;
+    justify-content: center;
+    img{
+      padding-bottom: 5vh;
+    }
+  }
+  .typography__testimony {
+    padding-left: 0vh;
+    padding-right: 0vh;
+    font-size: 1rem;
+    font-style: oblique;
+  }
+  
+  .registration-link .registration-text {
+    font-size: 1.3rem;
+    color: white;
+    font-weight: bold;
+  }
+  .charla{
+    font-size: 1.2rem;
+  }
+  .invitation-details {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 0vh;
+      padding-top: 0vh;
+    text-align: center;
+    background: #615dec;
+    color: white;
+    padding-top: 5vh;
+  }
+  .invitation-details .invitation-details {
+    font-size: 1.4rem;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+  }
+}
+.css-mhc70k-MuiGrid-root > .MuiGrid-item {
+  padding-top: 10vh;
+}
+.event-start{
+  padding-bottom: 10vh;
+}
