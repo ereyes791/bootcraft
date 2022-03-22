@@ -46,15 +46,6 @@ const Index = ({
   )
 }
 
-Index.getInitialProps = ({ store }) => {
-  store.dispatch({
-    type: INCREMENT,
-    from: 'server'
-  })
-
-  return {}
-}
-
 export default connect(
   state => state,
   dispatch => ({ actions: bindActionCreators({ increment, decrement }, dispatch) })
