@@ -43,11 +43,14 @@ class Testimony extends React.Component{
     render(){
         return(
             <Container>
-                <Typography className='typography__title--medium testimony-title'> 
+                <Typography 
+                  className='typography__title--medium testimony-title'
+                  id="testimony"> 
                     ¿Qué dicen los padres sobre Bootcraft? 
                 </Typography>
                 <Box>
-                    <Carousel>
+                    <Carousel
+                      interval="6000">
                         {this.listTestimony()}
                     </Carousel>
                 </Box>

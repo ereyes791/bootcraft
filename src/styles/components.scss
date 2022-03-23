@@ -425,7 +425,7 @@
   background: rgba(97, 93, 236, 1);
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   .registration-text{
     font-size: 1.4rem;
     color: white;
@@ -441,10 +441,14 @@
   padding: 10vh;
   .invitation-top-text{
     font-size: 1.4rem;
+    padding-left: 20vh;
+    padding-right: 20vh;
   }
   .invitation-bottom-text{
     font-size: 1.7rem;
     padding-top: 5vh;
+    padding-left: 20vh;
+    padding-right: 20vh;
   }
   .timer{
     width: 60%;
@@ -622,6 +626,9 @@
     padding-left: 2vh;
     padding-right: 2vh;
   }
+  .certifications img {
+    padding-bottom: 2vh;
+  }
   .certifications {
     display: flex;
     flex-flow: column;
@@ -675,7 +682,7 @@
     background: #615dec;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-bottom: 0px;
   }
   .registration-button {
@@ -690,9 +697,13 @@
   .invitation-to-talk .invitation-bottom-text {
     font-size: 1.4rem;
     padding-top: 5vh;
+    padding-left: 0vh;
+    padding-right: 0vh;
   }
   .invitation-to-talk .invitation-top-text {
     font-size: 1.3rem;
+    padding-left: 0vh;
+    padding-right: 0vh;
   }
   .invitation-to-talk .timer {
     width: 110%;

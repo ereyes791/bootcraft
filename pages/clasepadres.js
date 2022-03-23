@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {Box,Typography,Card,Grid} from '@mui/material/';
+import {Box,Typography,Card,Grid,Container} from '@mui/material/';
 import NavBar from '../src/components/navigation/NavBar'
 import {Footer } from '../src/components/widgets/blocks';
 import * as days from 'dayjs';
@@ -47,8 +47,8 @@ class CharlaPadres extends React.Component{
       <Box>
         <NavBar/>
         <div className="registration-link">
-          <div className="registration-text">Clase gratuita para padres:<br/> 
-              Descubre cómo tu hijo<br/>  puede ganar   el poder de la <br/> computación en Minecraft</div>
+          <div className="registration-text">Clase gratuita para padres: 
+              Descubre cómo tu hijo puede<br/> ganar  el poder de la computación en Minecraft</div>
           <div className="registration-button">
           <a
               className='btn__main-video--cobalt charla'
@@ -134,7 +134,7 @@ class CharlaPadres extends React.Component{
               className='btn__main-video--cobalt charla'
               variant="contained">Registrarme</a>
         </section>
-        <section className="invitation-testimony">
+        <Container className="invitation-testimony">
           <p className="testimony-title">
           ¿Qué dicen los padres sobre esta clase?
           </p>
@@ -143,7 +143,7 @@ class CharlaPadres extends React.Component{
         fatherName="Adriana Puleo mamá de Santiago  (14 años)" 
         testimony="“Antes pensaba que Minecraft era otro videojuego más. Después de esta charla lo veo como un lugar que reta a mi hijo a pensar cómo solucionar problemas utilizando el pensamiento computacional. Me emociona que desde ahora pueda ir cumpliendo su sueño de convertirse en un programador”"
         fatherLinkin='https://www.linkedin.com/in/adrianapuleo/'/>
-        </section>
+        </Container>
         <Footer/>
       </Box>
     );

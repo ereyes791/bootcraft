@@ -42,7 +42,7 @@ class TopFrontPage extends React.Component{
             <Typography 
               className='typography__title--big white main-text'
               component="span">
-                  Prepara a tu hijo para<br/> el futuro, con el poder <br/>de la computación
+                  Prepara a tu hijo para<br/> el futuro, con el poder <br/>de la programación
             </Typography>
           </Box> 
         <Box
