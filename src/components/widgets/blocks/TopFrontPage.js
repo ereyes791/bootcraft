@@ -73,7 +73,7 @@ class TopFrontPage extends React.Component{
             <CardMedia
               component="iframe"
               height="100%"
-              src="https://www.youtube.com/embed/7UOx-bObaJY"
+              src="https://www.youtube.com/embed/8bYE04zxWfk"
               alt="example"
             />
           </Box>
@@ -92,7 +92,6 @@ class TopFrontPage extends React.Component{
       </Grid>
     );
   }
-
 }
 
 export default TopFrontPage;

@@ -52,7 +52,8 @@ class CharlaPadres extends React.Component{
           <div className="registration-button">
           <a
               className='btn__main-video--cobalt charla'
-              variant="contained">Registrarme</a>
+              variant="contained"
+              href='https://us02web.zoom.us/meeting/register/tZUkde2gqTsiHdCBo8Tv_OFnba0fA_C0R1hl'>Registrarme</a>
           </div>
         </div>
         <section className="invitation-to-talk">
