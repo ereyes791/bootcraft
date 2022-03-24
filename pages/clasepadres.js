@@ -128,7 +128,7 @@ class CharlaPadres extends React.Component{
           <br/> 
           Hora: 8:30 p.m. UTC(-4:00)
           <br/>
-          Al registrarte recibirás las corrdenadas por correo electrónico.
+          Al registrarte recibirás las coordenadas por correo electrónico.
           </p>
           <a
               className='btn__main-video--cobalt charla'
