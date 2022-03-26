@@ -26,7 +26,7 @@ class CharlaPadres extends React.Component{
     return date.locale('es-us').format('dddd D, MMMM YYYY hh:mmA');
   }
   componentWillMount(){
-    this.setState({nextMeeting: days('2022-03-29 20:30:00')});
+    this.setState({nextMeeting: days('2022-03-31 20:30:00')});
     this.setState({interval: setInterval(() =>{
       this.setState({currentTime: days()});
       const diffInSeconds = this.state.nextMeeting.diff(this.state.currentTime,'second');
