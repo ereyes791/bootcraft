@@ -248,7 +248,7 @@
     padding-left: 10vh;
     padding-right: 10vh;
     img{
-      width: 150px;
+      height: 200px;
     }
   }
 
@@ -350,6 +350,7 @@
     justify-content: center;
   }
 }
+
 // top-side
 .top-home{
   position:relative;
@@ -504,7 +505,23 @@
     font-size: 1rem;
   }
 }
-
+//card
+.form-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  flex-direction: column;
+  .form-card{
+    display: flex;
+    flex-direction: column;
+    padding: 10vh;
+    width: 45%;
+    .input-data{
+      padding-bottom: 5vh;
+    }
+  }
+}
 // media queries
 @media only screen and (max-width: 720px) {
   /* For mobile phones: */

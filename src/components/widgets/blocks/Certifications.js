@@ -22,12 +22,10 @@ class Cerfications extends React.Component{
           <img src={MBA.src} alt="" />
           <a href="https://redparacrecer.org/cgi-win/be_alex.cgi?QuienesSomos&nombrebd=redparacrecer&&Sesion=1728249943">
             <img src={RPC.src} 
-            height="150px"  
             alt="" /> 
           </a>
           <a href="https://academia-n.com/">
             <img src={AN.src} 
-              height="150px"
               href="https://academia-n.com/"
               alt="" />
           </a>

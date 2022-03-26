@@ -65,11 +65,11 @@ class FAQ extends React.Component{
           id="panel4a-header"
           className='FAQ-wrapper'
         >
-          <Typography>¿Por qué aprender en Bootcraft?</Typography>
+          <Typography>¿Por qué aprender en Bootcraft.club?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          En Bootcraft educamos para el futuro de los jóvenes en LATAM. Es mucho más que un curso para aprender a programar, contará con una comunidad de aprendizaje y un espacio de entrenamiento continuo. Generamos el espacio para que los chicos desarrollen el pensamiento computacional y otras habilidades clave a través de la creación de videojuegos. 
+          Hemos creado una experiencia única y gamificada para que tu hijo/a aprenda computación, de la mano de mentores profesionales. Podrá entrenar su capacidad de  resolver problemas complejos completando desafíos de programación en Minecraft, a su propio ritmo y acompañado de una comunidad de jugadores. 
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -80,11 +80,11 @@ class FAQ extends React.Component{
           id="panel5a-header"
           className='FAQ-wrapper'
         >
-          <Typography>¿Es necesario tener conocimiento previo?</Typography>
+          <Typography>¿Es necesario tener conocimiento previo o saber jugar Minecraft?  </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            No, la ruta inicia desde el nivel básico y va subiendo de nivel progresivamente y a su ritmo.
+            No es necesario, la ruta inicia desde el nivel básico y va subiendo de nivel progresivamente y a su ritmo.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -118,7 +118,7 @@ class FAQ extends React.Component{
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Si su hijo/a necesita ayuda adicional con el proceso de las clases podrá consultar a los mentores o a sus compañeros. Sin embargo, no son recuperables porque las clases se entregan en tiempo real. 
+            Las clases son modulares, aunque no son recuperables su hijo/a tendrá oportunidades futuras de retomar la clase. 
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -134,6 +134,21 @@ class FAQ extends React.Component{
         <AccordionDetails>
           <Typography>
             Una vez realizado el primer pago, será contactado por correo electrónico. Recibirá los horarios disponibles, los requerimientos técnicos con las instrucciones sobre cómo descargar las aplicaciones necesarias y la licencia de Minecraft Education Edition que será de uso exclusivo para su hijo/a durante el tiempo de suscripción. 
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel5a-content"
+          id="panel5a-header"
+          className='FAQ-wrapper'
+        >
+          <Typography>¿Qué pasa si quiero terminar mi suscripción?</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            En cualquier momento podrá pausar o cancelar su suscripción a Bootcraft.
           </Typography>
         </AccordionDetails>
       </Accordion>

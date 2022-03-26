@@ -8,9 +8,10 @@ class NavBar extends React.Component{
     super(props);
     
     this.state = {
-      pages : [{name:'Clase para padres',to:'/clasepadres'}, 
+      pages : [
+        {name:'Clase para padres',to:'/clasepadres'}, 
         {name:'Entrenamiento',to:'/#trainer'},
-        {name:'Testimonio',to:'/#testimony'},  
+        {name:'Testimonios',to:'/#testimony'},  
         // {name:'Team',to:'/team'},  
         // {name:'Suscripción', to:'/#payment'},
         {name:'FAQ',to:'/#FAQ'}],
@@ -21,7 +22,7 @@ class NavBar extends React.Component{
     this.handleOpenUserMenu = this.handleOpenUserMenu.bind(this);
     this.handleCloseNavMenu = this.handleCloseNavMenu.bind(this);
     this.handleCloseUserMenu = this.handleCloseUserMenu.bind(this);
-   }
+   }s
   
   handleOpenNavMenu(event){
       this.setState({anchorElNav:event.currentTarget});
@@ -125,7 +126,7 @@ class NavBar extends React.Component{
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
           >
-            <img href="/" src={img.src}  width="250px" alt="" />
+            <img href="/" src={img.src}  width="200vw" alt="" />
           </Typography>
           </Toolbar>
         </AppBar>
