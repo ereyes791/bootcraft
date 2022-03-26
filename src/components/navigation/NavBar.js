@@ -126,7 +126,7 @@ class NavBar extends React.Component{
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
           >
-            <img href="/" src={img.src}  width="200vw" alt="" />
+            <img href="/" src={img.src}  width="200px" height="71px"alt="" />
           </Typography>
           </Toolbar>
         </AppBar>
