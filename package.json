@@ -12,6 +12,7 @@
     "@mui/material": "^5.4.3",
     "@mui/styled-engine-sc": "^5.3.0",
     "@mui/styles": "^5.4.2",
+    "axios": "^0.26.1",
     "dayjs": "^1.10.7",
     "next": "latest",
     "next-images": "^1.8.4",
