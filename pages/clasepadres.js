@@ -133,7 +133,7 @@ class CharlaPadres extends React.Component{
           <a
               className='btn__main-video--cobalt charla'
               variant="contained"
-              href='https://mailchi.mp/72d33ea8a72d/clasepadres'>Registrarme</a>
+              href='https://mailchi.mp/b5db2436e744/wdvvu83xdi'>Registrarme</a>
         </section>
         <Container className="invitation-testimony">
           <p className="testimony-title">
