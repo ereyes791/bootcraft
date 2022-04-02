@@ -113,7 +113,7 @@ class Invitation extends React.Component{
         <a 
           className='btn__main-video--cobalt'
           variant="contained"
-          href='https://us02web.zoom.us/meeting/register/tZUkde2gqTsiHdCBo8Tv_OFnba0fA_C0R1hl'>Registrarme</a>
+          href='https://mailchi.mp/72d33ea8a72d/clasepadres'>Registrarme</a>
       </Grid>
     </Box>
   

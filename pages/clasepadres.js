@@ -53,7 +53,7 @@ class CharlaPadres extends React.Component{
           <a
               className='btn__main-video--cobalt charla'
               variant="contained"
-              href='https://us02web.zoom.us/meeting/register/tZUkde2gqTsiHdCBo8Tv_OFnba0fA_C0R1hl'>Registrarme</a>
+              href='https://mailchi.mp/72d33ea8a72d/clasepadres'>Registrarme</a>
           </div>
         </div>
         <section className="invitation-to-talk">
@@ -124,7 +124,7 @@ class CharlaPadres extends React.Component{
           <p className="invitation-details">
           El evento será online y tiempo real a través de Zoom Meeting.
           <br/>
-          Fecha: Martes 29 de Marzo
+          Fecha: Martes 05 de Abril
           <br/> 
           Hora: 8:30 p.m. UTC(-4:00)
           <br/>
@@ -133,7 +133,7 @@ class CharlaPadres extends React.Component{
           <a
               className='btn__main-video--cobalt charla'
               variant="contained"
-              href='https://us02web.zoom.us/meeting/register/tZUkde2gqTsiHdCBo8Tv_OFnba0fA_C0R1hl'>Registrarme</a>
+              href='https://mailchi.mp/72d33ea8a72d/clasepadres'>Registrarme</a>
         </section>
         <Container className="invitation-testimony">
           <p className="testimony-title">
