@@ -35,7 +35,6 @@ const Index = ({
         <TopFrontPage/>
         <Offer/>
         <Class/>
-        <Invitation/>
         <Cerfications/>
         <Testimony/>
         <FAQ/>
